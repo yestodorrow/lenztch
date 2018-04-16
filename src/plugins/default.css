@@ -1,0 +1,66 @@
+body {
+    background-color: #fbf9fe;
+    width:10rem;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+  }
+  #app{
+      width:10rem;
+      margin:0;
+  }
+/* 任务页面：搜索栏/运营/ 任务标签*/
+.topbar,.operation,.swiper,.taskmap{
+    width:9.2rem;
+    margin:.2rem auto;
+}
+.task,.tasktab{
+    width:10rem;
+    background:#fff;
+    margin:0 auto;
+}
+.topbar{
+    height:1.18rem;  
+}
+/* 搜索框样式 */
+.mint-search,mint-searchbar{
+    width:7.86rem;
+    height:1.18rem;
+    line-height:1.18rem;
+}
+.mint-search{
+
+}
+.mint-searchbar-core{
+    
+}
+/* 底部标签页 */
+.bottomNav{
+    width:10rem;
+    height:2.48rem;
+    background:#fff;
+}
+.weui-tabbar{/*修改默认样式*/
+    background:#fff;
+}
+.bottomNavContainer{
+    position:fixed;
+ }
+/* 顶部搜索框 */
+
+.swiper{
+    height:3.46rem;
+    margin-bottom:.2rem;
+}
+.vux-swiper{
+    height:4rem!important;
+}
+.vux-slider,.vux-swiper-item{
+    width:9.2rem!important;
+}
+
+.weui-cells{
+    height:1.6rem!important;
+    margin: 0 .4rem;
+    line-height:1.6rem!important;
+}
